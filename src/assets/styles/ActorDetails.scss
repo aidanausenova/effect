@@ -1,0 +1,16 @@
+#actorDetails{
+    padding: 30px 0;
+   .actorDetails{
+    display: flex;
+    margin: 30px 0;
+    gap: 50px;
+    &--text {
+        a{
+            color: blue;
+            font-size: 30px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+   }
+}

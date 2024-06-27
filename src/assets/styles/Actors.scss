@@ -1,0 +1,54 @@
+.actor {
+    margin-top: 50px;
+  h1 {
+    font-weight: 500;
+   }
+    .actors {
+     
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        overflow-x: scroll;
+        margin-top: 20px;
+        .movie-actors {
+            width: 200px ;
+            height: 290px;
+            border-radius: 15px;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+            box-shadow:5px 5px 5px  rgba(0, 0, 0, 0.252) ;
+            .movie-actor h1 {
+                text-align: center;
+                font-size: 10px;
+            }
+            img{
+                width: 150px;
+                height: 180px;
+                border-radius: 15px 15px 0px 0px;
+                margin-top: 5px;
+            }
+            h1 {
+                font-size: 15px;
+                font-weight: 200;
+                text-align: center;
+            }
+            h4 {
+                font-size: 16px;
+                font-weight: 200;
+            }
+        
+            }
+            .actor-text {
+        display: flex;
+        align-items: center;
+    margin-top: 20px;
+                font-size:20px;
+    
+            }
+        
+    }
+}
